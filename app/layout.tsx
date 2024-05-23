@@ -7,14 +7,14 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <CssBaseline />
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">Callum Bir Next Demo App</Typography>
+          <Typography variant="h6">Bikram Ghale Next Demo App</Typography>
         </Toolbar>
       </AppBar>
       {/* Add spacing below the AppBar */}
       <div style={{ marginTop: '20px' }}></div>
       <Container style={{ flex: 1 }}>{children}</Container>
       <footer style={{ padding: '1rem', background: '#f0f0f0', textAlign: 'center' }}>
-        &copy; Callum Bir 2023
+        &copy; BG 2024
       </footer>
     </div>
   );
